@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./images/Premium\ Vector\ _\ Virtual\ computer\ binary\ code\ abstract\ background.jpg);
+    background-size: contain;
+    height: 15vh;
+    width: 100vw;
+}
+header h1{
+    text-align: center;
+    color: rgb(135, 120, 120);
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Press Start 2P', cursive;;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Vidaloka', serif;
+    background-image: url();
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    position: relative;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+}
+nav ul li:hover > a {
+    background-color: orange;
+}
+nav ul li:hover .dropdown{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color:;
+    opacity: 80%;
+    z-index: 2;
+}
+.dropdown a{
+    color:#000;
+    display: block;
+    margin: 20px;
+}
+.icons img{
+    width: 30px;
+    height: 40px;
+}
+.carousel-caption p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
